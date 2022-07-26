@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Praticando Função</title>
+</head>
+
+
+<body>
+
+<script type="text/javascript">
+	
+function pulaLinha(){
+	document.write("<br>");
+}
+
+function mostra(parametro){
+	document.write(parametro);
+	pulaLinha();
+}
+
+var anoAtual = 2022;
+var diferencaDeAnos = anoAtual - 1500;
+var qtdGeracoes = diferencaDeAnos / 28;
+
+mostra("Resposta:");
+mostra("Desde que o Brasil foi descoberto, passaram-se " + Math.round(qtdGeracoes) + " gerações");
+
+
+</script>
+
+</body>
+
+
+</html>

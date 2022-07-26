@@ -1,0 +1,31 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+    document.write("<br>");
+    document.write("<br>");
+}
+
+function mostra(frase) {
+
+    document.write(frase);
+    pulaLinha();
+}
+
+var par = 0;
+
+while(par <= 100){
+
+    mostra("O número par atual é: " + par);
+    par = par + 2;
+
+    if(par == 100){
+        alert("FIM");
+    }
+}
+
+
+
+</script>
